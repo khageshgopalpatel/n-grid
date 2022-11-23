@@ -1,0 +1,21 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.input-container input{
+  flex: 1 auto;
+}
+
+.label-left .input-container {
+  flex-direction: row;
+}
+
+.label-left .input-container label {
+  flex-direction: row;
+  margin-right: 0.5rem;
+}
+
+.input-container label{
+  margin-bottom: 0.5rem;
+}
